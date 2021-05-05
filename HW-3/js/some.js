@@ -14,14 +14,15 @@
 // user.name='Pete';
 //да,это работает
 
-//Task#3
-// let salaries ={
-//    John:100,
-//    Ann:160,
-//    Pete:130
-// }
-// sum = (100+160+130);
-// console.log(sum);
+// Task#3
+let salaries = {
+   John: 100,
+   Ann: 160,
+   Pete: 130
+}
+sum = salaries.John + salaries.Ann + salaries.Pete;
+console.log(sum);
+
 
 //Task#4
 // console.log(Boolean(Number("10")) + 1);//2
